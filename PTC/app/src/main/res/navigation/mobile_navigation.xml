@@ -27,4 +27,59 @@
         android:name="hatsuser.ptc2024.hats.fragment_home"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/fragment_inicio"
+        android:name="hatsuser.ptc2024.hats.fragment_Inicio"
+        android:label="fragment__inicio"
+        tools:layout="@layout/fragment__inicio" />
+    <fragment
+        android:id="@+id/fragment_servicios"
+        android:name="hatsuser.ptc2024.hats.fragment_servicios"
+        android:label="fragment_servicios"
+        tools:layout="@layout/fragment_servicios" />
+    <fragment
+        android:id="@+id/fragment_c_contratacion"
+        android:name="hatsuser.ptc2024.hats.fragment_c_contratacion"
+        android:label="fragment_c_contratacion"
+        tools:layout="@layout/fragment_c_contratacion" />
+    <fragment
+        android:id="@+id/fragment_servicios_c"
+        android:name="hatsuser.ptc2024.hats.fragment_servicios_c"
+        android:label="fragment_servicios_c"
+        tools:layout="@layout/fragment_servicios_c" />
+    <fragment
+        android:id="@+id/fragment_notificaciones"
+        android:name="hatsuser.ptc2024.hats.fragment_notificaciones"
+        android:label="fragment_notificaciones"
+        tools:layout="@layout/fragment_notificaciones" />
+    <fragment
+        android:id="@+id/fragment_promocion"
+        android:name="hatsuser.ptc2024.hats.fragment_promocion"
+        android:label="fragment_promocion"
+        tools:layout="@layout/fragment_promocion" />
+    <fragment
+        android:id="@+id/fragment_perfil"
+        android:name="hatsuser.ptc2024.hats.fragment_perfil"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/fragment_infolegal"
+        android:name="hatsuser.ptc2024.hats.fragment_infolegal"
+        android:label="fragment_infolegal"
+        tools:layout="@layout/fragment_infolegal" />
+    <fragment
+        android:id="@+id/fragment_asistencia"
+        android:name="hatsuser.ptc2024.hats.fragment_asistencia"
+        android:label="fragment_asistencia"
+        tools:layout="@layout/fragment_asistencia" />
+    <fragment
+        android:id="@+id/fragment_direcciones"
+        android:name="hatsuser.ptc2024.hats.fragment_direcciones"
+        android:label="fragment_direcciones"
+        tools:layout="@layout/fragment_direcciones" />
+    <fragment
+        android:id="@+id/fragment_configuracion"
+        android:name="hatsuser.ptc2024.hats.fragment_configuracion"
+        android:label="fragment_configuracion"
+        tools:layout="@layout/fragment_configuracion" />
 </navigation>
