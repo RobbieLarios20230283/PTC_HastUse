@@ -1,8 +1,10 @@
 package hatsuser.ptc2024.hats
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -23,11 +25,22 @@ class RegistrarActivity : AppCompatActivity() {
         val txtcorreo = findViewById<EditText>(R.id.txtcorreo)
         val txtcontraseña = findViewById<EditText>(R.id.txtcontraseña)
         val btnregistrarse = findViewById<Button>(R.id.btniraRegistrarse)
+        val imgback = findViewById<ImageView>(R.id.imgback)
+        val btnRegresarLogin = findViewById<Button>(R.id.btnvolverlogin)
 
         //Programar el Boton
          btnregistrarse.setOnClickListener {
           FirebaseAuth.getInstance().createUserWithEmailAndPassword(txtcorreo.text.toString(), txtcontraseña.text.toString())
 
+        }
+        btnRegresarLogin.setOnClickListener {
+            val intent = Intent(this, btnRegresarLogin::class.java)
+            startActivity(intent)
+        }
+
+        imgback.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
         }
     }
 }

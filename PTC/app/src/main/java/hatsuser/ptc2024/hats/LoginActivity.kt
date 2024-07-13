@@ -2,8 +2,10 @@ package hatsuser.ptc2024.hats
 
 import android.content.Intent
 import android.os.Bundle
+import android.text.InputType
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -43,6 +45,9 @@ class LoginActivity : AppCompatActivity() {
         val btnacceder = findViewById<Button>(R.id.btnacceder)
         val txtemail = findViewById<EditText>(R.id.txtemail)
         val txtpassword = findViewById<EditText>(R.id.txtpassword)
+        val imgVerClaveLogin = findViewById<ImageView>(R.id.imgseepassword)
+
+
 
         btnacceder.setOnClickListener {
                 val correo = txtemail.text.toString().trim()
@@ -55,7 +60,7 @@ class LoginActivity : AppCompatActivity() {
                         password
                     ).addOnCompleteListener {
                         if (it.isSuccessful) {
-                            val activity_menu = Intent(this, homeActivity::class.java)
+                            val activity_menu = Intent(this, MainActivity::class.java)
                             startActivity(activity_menu)
                         } else {
                             Toast.makeText(this, "Error al iniciar sesion", Toast.LENGTH_LONG).show()
@@ -64,6 +69,15 @@ class LoginActivity : AppCompatActivity() {
                     }
                 }
         }
+          imgVerClaveLogin.setOnClickListener {
+
+            if (txtpassword.inputType == InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD) {
+                txtpassword.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD
+            } else {
+                txtpassword.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
+            }
+        }
+
 
 
     }
