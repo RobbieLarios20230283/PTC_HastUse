@@ -26,7 +26,7 @@
         tools:layout_editor_absoluteY="147dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnTer_Con"
         android:layout_width="216dp"
         android:layout_height="71dp"
         android:text="Terminos y Condiciones Generales"
@@ -50,7 +50,7 @@
         tools:layout_editor_absoluteY="323dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnTEr_Pago"
         android:layout_width="206dp"
         android:layout_height="63dp"
         android:text="Terminos y Condiciones de Pago"
@@ -66,7 +66,7 @@
         tools:layout_editor_absoluteY="452dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnPoli_Priva"
         android:layout_width="155dp"
         android:layout_height="62dp"
         android:text="Politicas de Privacidad"
