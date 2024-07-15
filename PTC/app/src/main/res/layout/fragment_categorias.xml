@@ -6,83 +6,164 @@
     android:layout_height="match_parent"
     tools:context=".fragment_categorias">
 
-    <Button
-        android:id="@+id/btn_mecanica"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mecanica"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="137dp" />
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="543dp"
+        android:layout_height="1091dp"
+        android:src="@drawable/fondo_android"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_pintura"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#006B61"
         android:text="Pintura"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="42dp" />
-
-    <Button
-        android:id="@+id/btn_carpinteria"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Carpinteria"
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="37dp" />
-
-    <Button
-        android:id="@+id/btn_s_limpieza"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Servicios de limpieza"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="237dp" />
-
-    <Button
-        android:id="@+id/btn_cerrajeria"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cerrajeria"
-        tools:layout_editor_absoluteX="246dp"
-        tools:layout_editor_absoluteY="127dp" />
-
-    <Button
-        android:id="@+id/btn_s_planchado"
-        android:layout_width="128dp"
-        android:layout_height="99dp"
-        android:text="servicios de planchado"
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="212dp" />
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117"
+        app:strokeColor="#000000" />
 
     <Button
         android:id="@+id/btn_fontaneria"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#006B61"
         android:text="Fontaneria"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="345dp" />
-
-    <Button
-        android:id="@+id/btn_cosina"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cosina"
-        tools:layout_editor_absoluteX="230dp"
-        tools:layout_editor_absoluteY="337dp" />
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647"
+        app:strokeColor="#000000" />
 
     <Button
         android:id="@+id/btn_r_electrodomesticos"
-        android:layout_width="186dp"
-        android:layout_height="88dp"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#006B61"
         android:text="Reparación de electrodomesticos"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="435dp" />
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.832"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_s_limpieza"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#006B61"
+        android:text="Servicios de limpieza"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_mecanica"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#006B61"
+        android:text="Mecanica"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_carpinteria"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#006B61"
+        android:text="Carpinteria"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_cosina"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#006B61"
+        android:text="Cosina"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_s_planchado"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#006B61"
+        android:text="servicios de planchado"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48"
+        app:strokeColor="#000000" />
 
     <Button
         android:id="@+id/btn_jardineria"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#006B61"
         android:text="Jardineria"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="475dp" />
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.832"
+        app:strokeColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_cerrajeria"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#006B61"
+        android:text="Cerrajeria"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        app:strokeColor="#000000" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

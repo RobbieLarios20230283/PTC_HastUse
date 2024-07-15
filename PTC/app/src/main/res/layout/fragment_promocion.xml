@@ -6,126 +6,148 @@
     android:layout_height="match_parent"
     tools:context=".fragment_promocion">
 
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="543dp"
+        android:layout_height="1091dp"
+        android:src="@drawable/fondo_android"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="171dp"
+        android:layout_height="237dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Button"
+        app:cornerRadius="14dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="171dp"
+        android:layout_height="237dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Button"
+        app:cornerRadius="14dp"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="155dp"
+        android:layout_height="203dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Button"
+        app:cornerRadius="14dp"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="105dp"
+        android:layout_height="92dp"
+        android:src="@tools:sample/avatars"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="223dp"
+        tools:src="@drawable/baseline_key_24" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="155dp"
+        android:layout_height="203dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Button"
+        app:cornerRadius="14dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="106dp"
+        android:layout_height="96dp"
+        android:src="@tools:sample/avatars"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="223dp"
+        tools:src="@drawable/baseline_attach_money_24" />
+
     <TextView
         android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="56dp"
         android:text="Promociones del 25%"
         android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="138dp"
-        android:layout_marginEnd="78dp"
-        android:layout_marginBottom="19dp"
-        android:src="@drawable/promicion"
-        app:layout_constraintBottom_toTopOf="@+id/btnPromicioness"
-        app:layout_constraintEnd_toStartOf="@+id/imageView12"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="138dp"
-        android:layout_marginEnd="70dp"
-        android:layout_marginBottom="19dp"
-        android:src="@drawable/llave"
-        app:layout_constraintBottom_toTopOf="@+id/btnLlavesSV"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView11"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="56dp" />
 
     <Button
         android:id="@+id/btnPromicioness"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="122dp"
+        android:backgroundTint="#006B61"
         android:text="promicion"
-        app:layout_constraintBottom_toTopOf="@+id/imageView13"
-        app:layout_constraintEnd_toStartOf="@+id/btnLlavesSV"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+        app:cornerRadius="12dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="331dp" />
 
     <Button
         android:id="@+id/btnLlavesSV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="55dp"
+        android:backgroundTint="#006B61"
         android:text="Llaves SV"
-        app:layout_constraintBottom_toTopOf="@+id/textView23"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnPromicioness"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+        app:cornerRadius="12dp"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="330dp" />
 
     <TextView
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="13dp"
-        android:layout_marginBottom="35dp"
+        android:backgroundTint="#014D45"
         android:text="Servicios Destacados"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView14"
-        app:layout_constraintEnd_toEndOf="@+id/imageView14"
-        app:layout_constraintTop_toBottomOf="@+id/btnLlavesSV" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="65dp"
-        android:layout_marginEnd="82dp"
-        android:layout_marginBottom="20dp"
-        android:src="@drawable/carpintero"
-        app:layout_constraintBottom_toTopOf="@+id/btnRobbieCarp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView14"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnPromicioness" />
-
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="78dp"
-        android:layout_marginBottom="22dp"
-        android:src="@drawable/zapatero"
-        app:layout_constraintBottom_toTopOf="@+id/btnRonyZap"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView13"
-        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="433dp" />
 
     <Button
         android:id="@+id/btnRobbieCarp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginBottom="147dp"
+        android:backgroundTint="#006B61"
         android:text="Robbie Carp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnRonyZap"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+        app:cornerRadius="12dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="696dp" />
 
     <Button
         android:id="@+id/btnRonyZap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="9dp"
-        android:layout_marginBottom="147dp"
+        android:backgroundTint="#006B61"
         android:text="Rony Zapatero"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnRobbieCarp"
-        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+        app:cornerRadius="12dp"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="160dp"
+        android:layout_height="206dp"
+        android:src="@drawable/zapatero"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="155dp"
+        android:layout_height="115dp"
+        android:src="@drawable/carpintero"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="549dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

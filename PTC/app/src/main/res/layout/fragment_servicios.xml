@@ -7,7 +7,7 @@
     tools:context=".fragment_servicios">
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/imageView19"
         android:layout_width="543dp"
         android:layout_height="1091dp"
         android:src="@drawable/fondo_android"

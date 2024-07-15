@@ -5,14 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DC1414"
+    android:background="#FFF3F3"
     tools:context=".RegistrarActivity">
 
 
     <EditText
         android:id="@+id/txtcorreo"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="60dp"
         android:layout_marginTop="34dp"
         android:layout_marginBottom="365dp"
         android:hint="Correo"
@@ -24,7 +24,7 @@
     <EditText
         android:id="@+id/txtcontraseña"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginBottom="57dp"
         android:ems="10"
         android:hint="Contraseña"

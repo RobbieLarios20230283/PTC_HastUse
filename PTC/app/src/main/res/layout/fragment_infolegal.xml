@@ -6,101 +6,131 @@
     android:layout_height="match_parent"
     tools:context=".fragment_infolegal">
 
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="543dp"
+        android:layout_height="1091dp"
+        android:src="@drawable/fondo_android"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
-        android:layout_marginEnd="184dp"
-        android:layout_marginBottom="27dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginBottom="109dp"
         android:text="Informacion Legal"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnTer_Con"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
-        android:layout_marginBottom="49dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="62dp"
         android:text="Conoce los terminos de servicios"
-        app:layout_constraintBottom_toTopOf="@+id/btnTer_Con"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
-
-    <Button
-        android:id="@+id/btnTer_Con"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="69dp"
-        android:layout_marginBottom="48dp"
-        android:text="Terminos y Condiciones Generales"
-        app:layout_constraintBottom_toTopOf="@+id/btnTEr_Pago"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="91dp"
-        android:layout_height="86dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="49dp"
-        android:layout_marginEnd="13dp"
-        android:layout_marginBottom="50dp"
+        android:layout_width="96dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="64dp"
         android:src="@drawable/alerta"
-        app:layout_constraintBottom_toTopOf="@+id/btnTEr_Pago"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toStartOf="@+id/btnTer_Con"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:src="@drawable/baseline_info_outline_24" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="91dp"
-        android:layout_height="79dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginEnd="23dp"
-        android:src="@drawable/pagos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnTEr_Pago"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnTEr_Pago"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="69dp"
-        android:layout_marginBottom="65dp"
-        android:text="Terminos y Condiciones de Pago"
-        app:layout_constraintBottom_toTopOf="@+id/btnPoli_Priva"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/btnTer_Con" />
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="104dp"
+        android:src="@drawable/pagos"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/btnTEr_Pago"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:src="@drawable/baseline_attach_money_24" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="93dp"
-        android:layout_height="74dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="45dp"
-        android:layout_marginEnd="41dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="230dp"
         android:src="@drawable/segu"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnPoli_Priva"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:src="@drawable/baseline_key_24" />
 
     <Button
         android:id="@+id/btnPoli_Priva"
-        android:layout_width="0dp"
+        android:layout_width="230dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="102dp"
-        android:layout_marginBottom="207dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="250dp"
+        android:backgroundTint="#006B61"
         android:text="Politicas de Privacidad"
+        app:cornerRadius="14dp"
+        app:iconTint="#006B61"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/btnTEr_Pago" />
+        app:layout_constraintTop_toBottomOf="@+id/btnTEr_Pago"
+        app:rippleColor="#006B61"
+        app:strokeColor="#006B61" />
+
+    <Button
+        android:id="@+id/btnTer_Con"
+        android:layout_width="230dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="91dp"
+        android:backgroundTint="#006B61"
+        android:text="Terminos y Condiciones Generales"
+        app:cornerRadius="14dp"
+        app:iconTint="#006B61"
+        app:layout_constraintBottom_toTopOf="@+id/btnTEr_Pago"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:rippleColor="#006B61"
+        app:strokeColor="#006B61" />
+
+    <Button
+        android:id="@+id/btnTEr_Pago"
+        android:layout_width="230dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="128dp"
+        android:backgroundTint="#006B61"
+        android:text="Terminos y Condiciones de Pago"
+        app:cornerRadius="14dp"
+        app:iconTint="#006B61"
+        app:layout_constraintBottom_toTopOf="@+id/btnPoli_Priva"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/btnTer_Con"
+        app:rippleColor="#006B61"
+        app:strokeColor="#006B61" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
