@@ -58,15 +58,13 @@
         android:textColorHighlight="#D8890505"
         android:textColorHint="#FF3C3C"
         android:textSize="34sp"
-<<<<<<< HEAD
+
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-=======
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="72dp" />
+
 
     <Button
         android:id="@+id/btnDireccion"
@@ -75,7 +73,7 @@
         android:text="Agregar direccion"
         tools:layout_editor_absoluteX="109dp"
         tools:layout_editor_absoluteY="638dp" />
->>>>>>> 2c0ea68f049d89342d44a291295816309e7ecdcb
+
 
     <ScrollView
         android:id="@+id/scrollView2"
