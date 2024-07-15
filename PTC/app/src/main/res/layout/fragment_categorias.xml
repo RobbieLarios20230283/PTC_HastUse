@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_categorias">
+
+    <Button
+        android:id="@+id/btn_mecanica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mecanica"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <Button
+        android:id="@+id/btn_pintura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pintura"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <Button
+        android:id="@+id/btn_carpinteria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carpinteria"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <Button
+        android:id="@+id/btn_s_limpieza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Servicios de limpieza"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <Button
+        android:id="@+id/btn_cerrajeria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrajeria"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <Button
+        android:id="@+id/btn_s_planchado"
+        android:layout_width="128dp"
+        android:layout_height="99dp"
+        android:text="servicios de planchado"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <Button
+        android:id="@+id/btn_fontaneria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fontaneria"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <Button
+        android:id="@+id/btn_cosina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cosina"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <Button
+        android:id="@+id/btn_r_electrodomesticos"
+        android:layout_width="186dp"
+        android:layout_height="88dp"
+        android:text="Reparación de electrodomesticos"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <Button
+        android:id="@+id/btn_jardineria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jardineria"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="475dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

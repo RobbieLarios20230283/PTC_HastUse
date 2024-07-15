@@ -82,4 +82,9 @@
         android:name="hatsuser.ptc2024.hats.fragment_configuracion"
         android:label="fragment_configuracion"
         tools:layout="@layout/fragment_configuracion" />
+    <fragment
+        android:id="@+id/fragment_categorias"
+        android:name="hatsuser.ptc2024.hats.fragment_categorias"
+        android:label="fragment_categorias"
+        tools:layout="@layout/fragment_categorias" />
 </navigation>
