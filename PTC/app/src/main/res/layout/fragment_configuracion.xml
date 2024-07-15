@@ -14,33 +14,33 @@
         android:layout_marginBottom="42dp"
         android:text="Perfil"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btnEditar"
         app:layout_constraintEnd_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnEditar"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginEnd="54dp"
         android:layout_marginBottom="33dp"
         android:text="Editar Datos Personales"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btnDirecciones"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnDirecciones"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginEnd="122dp"
         android:layout_marginBottom="33dp"
         android:text="Direcciones"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/btnFavoritos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/btnEditar" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -51,7 +51,7 @@
         android:layout_marginBottom="32dp"
         android:src="@drawable/direccionn"
         app:layout_constraintBottom_toTopOf="@+id/imageView7"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/btnDirecciones"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
@@ -64,12 +64,12 @@
         android:layout_marginBottom="111dp"
         android:src="@drawable/favoritos"
         app:layout_constraintBottom_toTopOf="@+id/imageView8"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/btnFavoritos"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnFavoritos"
         android:layout_width="114dp"
         android:layout_height="43dp"
         android:layout_marginEnd="151dp"
@@ -78,7 +78,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/btnDirecciones" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -90,7 +90,7 @@
         android:layout_marginBottom="28dp"
         android:src="@drawable/lapizito"
         app:layout_constraintBottom_toTopOf="@+id/imageView6"
-        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/btnEditar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -101,36 +101,36 @@
         android:layout_marginBottom="25dp"
         android:text="Configuraciones"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
-        app:layout_constraintStart_toStartOf="@+id/button4"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintBottom_toTopOf="@+id/btnNotific"
+        app:layout_constraintStart_toStartOf="@+id/btnNotific"
+        app:layout_constraintTop_toBottomOf="@+id/btnFavoritos" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnNotific"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="136dp"
         android:layout_marginBottom="23dp"
         android:text="Notificaciones"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintBottom_toTopOf="@+id/btnLegal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView8"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnLegal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="114dp"
         android:layout_marginBottom="24dp"
         android:text="Informacion legal"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintBottom_toTopOf="@+id/btnAsisLinea"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/btnNotific" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnAsisLinea"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="105dp"
@@ -139,7 +139,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView10"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/btnLegal" />
 
     <TextView
         android:id="@+id/textView8"
@@ -162,7 +162,7 @@
         android:layout_marginBottom="23dp"
         android:src="@drawable/campana"
         app:layout_constraintBottom_toTopOf="@+id/imageView9"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/btnNotific"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
@@ -175,7 +175,7 @@
         android:layout_marginBottom="19dp"
         android:src="@drawable/alert"
         app:layout_constraintBottom_toTopOf="@+id/imageView10"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/btnLegal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
@@ -188,7 +188,7 @@
         android:layout_marginBottom="90dp"
         android:src="@drawable/audifonos"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintEnd_toStartOf="@+id/btnAsisLinea"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 

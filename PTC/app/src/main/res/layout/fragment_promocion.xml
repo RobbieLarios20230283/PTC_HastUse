@@ -10,10 +10,83 @@
         android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="56dp"
         android:text="Promociones del 25%"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="96dp"
+        android:layout_height="100dp"
+        android:src="@drawable/promicion"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="103dp"
+        android:layout_height="100dp"
+        android:src="@drawable/llave"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <Button
+        android:id="@+id/btnPromicioness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="promicion"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <Button
+        android:id="@+id/btnLlavesSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llaves SV"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Servicios Destacados"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="95dp"
+        android:layout_height="89dp"
+        android:src="@drawable/carpintero"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="91dp"
+        android:layout_height="87dp"
+        android:src="@drawable/zapatero"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <Button
+        android:id="@+id/btnRobbieCarp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Robbie Carp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="536dp" />
+
+    <Button
+        android:id="@+id/btnRonyZap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rony Zapatero"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="536dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
