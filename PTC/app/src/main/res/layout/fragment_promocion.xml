@@ -19,74 +19,113 @@
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="96dp"
-        android:layout_height="100dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="19dp"
         android:src="@drawable/promicion"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="138dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnPromicioness"
+        app:layout_constraintEnd_toStartOf="@+id/imageView12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="103dp"
-        android:layout_height="100dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="19dp"
         android:src="@drawable/llave"
-        tools:layout_editor_absoluteX="238dp"
-        tools:layout_editor_absoluteY="138dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnLlavesSV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnPromicioness"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="122dp"
         android:text="promicion"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="257dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView13"
+        app:layout_constraintEnd_toStartOf="@+id/btnLlavesSV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
 
     <Button
         android:id="@+id/btnLlavesSV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="55dp"
         android:text="Llaves SV"
-        tools:layout_editor_absoluteX="238dp"
-        tools:layout_editor_absoluteY="257dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnPromicioness"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
     <TextView
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="35dp"
         android:text="Servicios Destacados"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="360dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/btnLlavesSV" />
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="95dp"
-        android:layout_height="89dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="20dp"
         android:src="@drawable/carpintero"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="427dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnRobbieCarp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPromicioness" />
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="91dp"
-        android:layout_height="87dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="22dp"
         android:src="@drawable/zapatero"
-        tools:layout_editor_absoluteX="242dp"
-        tools:layout_editor_absoluteY="427dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnRonyZap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
     <Button
         android:id="@+id/btnRobbieCarp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="147dp"
         android:text="Robbie Carp"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="536dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnRonyZap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
     <Button
         android:id="@+id/btnRonyZap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="147dp"
         android:text="Rony Zapatero"
-        tools:layout_editor_absoluteX="221dp"
-        tools:layout_editor_absoluteY="536dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnRobbieCarp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
 </androidx.constraintlayout.widget.ConstraintLayout>
