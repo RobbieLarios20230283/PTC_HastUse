@@ -4,53 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment_asistencia" >
+    tools:context=".fragment_asistencia">
 
     <Button
         android:id="@+id/btnPreguntas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:layout_marginBottom="41dp"
         android:text="Preguntas Frecuentes"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="74dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnHistorial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnHistorial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="41dp"
         android:text="Historial de Servicios"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="163dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnContac_Ase"
+        app:layout_constraintStart_toStartOf="@+id/btnPreguntas"
+        app:layout_constraintTop_toBottomOf="@+id/btnPreguntas" />
 
     <Button
         android:id="@+id/btnContac_Ase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="41dp"
         android:text="Contactar con un Asesor"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="252dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnMetodo_Pago"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHistorial" />
 
     <Button
         android:id="@+id/btnMetodo_Pago"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="41dp"
         android:text="Metodos de pago"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="341dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnMAsInfo"
+        app:layout_constraintEnd_toEndOf="@+id/btnMAsInfo"
+        app:layout_constraintTop_toBottomOf="@+id/btnContac_Ase" />
 
     <Button
         android:id="@+id/btnMAsInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
         android:text="Mas información..."
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="430dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMetodo_Pago" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="107dp"
-        android:layout_height="114dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="111dp"
         android:src="@drawable/audifonos"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="506dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMAsInfo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
