@@ -6,190 +6,165 @@
     android:layout_height="match_parent"
     tools:context=".fragment_configuracion">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="42dp"
-        android:text="Perfil"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnEditar"
-        app:layout_constraintEnd_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="584dp"
+        android:layout_height="1199dp"
+        android:src="@drawable/fondo_android"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599" />
 
     <Button
         android:id="@+id/btnEditar"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="54dp"
-        android:layout_marginBottom="33dp"
+        android:layout_width="204dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#006B61"
         android:text="Editar Datos Personales"
-        app:layout_constraintBottom_toTopOf="@+id/btnDirecciones"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:cornerRadius="12dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="46dp"
+        android:layout_height="52dp"
+        android:src="@drawable/baseline_edit_24"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="211dp" />
 
     <Button
         android:id="@+id/btnDirecciones"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="122dp"
-        android:layout_marginBottom="33dp"
+        android:layout_width="204dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#006B61"
         android:text="Direcciones"
-        app:layout_constraintBottom_toTopOf="@+id/btnFavoritos"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/btnEditar" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="59dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="65dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginBottom="32dp"
-        android:src="@drawable/direccionn"
-        app:layout_constraintBottom_toTopOf="@+id/imageView7"
-        app:layout_constraintEnd_toStartOf="@+id/btnDirecciones"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="60dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="65dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="111dp"
-        android:src="@drawable/favoritos"
-        app:layout_constraintBottom_toTopOf="@+id/imageView8"
-        app:layout_constraintEnd_toStartOf="@+id/btnFavoritos"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        app:cornerRadius="12dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="211dp" />
 
     <Button
         android:id="@+id/btnFavoritos"
-        android:layout_width="114dp"
-        android:layout_height="43dp"
-        android:layout_marginEnd="151dp"
-        android:layout_marginBottom="53dp"
+        android:layout_width="204dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#006B61"
         android:text="Favoritos"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/btnDirecciones" />
+        app:cornerRadius="12dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="310dp" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="60dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="151dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginBottom="28dp"
-        android:src="@drawable/lapizito"
-        app:layout_constraintBottom_toTopOf="@+id/imageView6"
-        app:layout_constraintEnd_toStartOf="@+id/btnEditar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/imageView10"
+        android:layout_width="51dp"
+        android:layout_height="56dp"
+        android:src="@drawable/baseline_star_24"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="207dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Button"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="413dp" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="25dp"
         android:text="Configuraciones"
+        android:textColor="#002F2B"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnNotific"
-        app:layout_constraintStart_toStartOf="@+id/btnNotific"
-        app:layout_constraintTop_toBottomOf="@+id/btnFavoritos" />
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="53dp"
+        android:layout_height="52dp"
+        android:src="@drawable/ic_notifications_black_24dp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="498dp" />
 
     <Button
         android:id="@+id/btnNotific"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="136dp"
-        android:layout_marginBottom="23dp"
+        android:layout_width="204dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#006B61"
         android:text="Notificaciones"
-        app:layout_constraintBottom_toTopOf="@+id/btnLegal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:cornerRadius="12dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="498dp" />
 
     <Button
         android:id="@+id/btnLegal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="114dp"
-        android:layout_marginBottom="24dp"
+        android:layout_width="204dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#006B61"
         android:text="Informacion legal"
-        app:layout_constraintBottom_toTopOf="@+id/btnAsisLinea"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/btnNotific" />
+        app:cornerRadius="12dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="48dp"
+        android:layout_height="54dp"
+        android:src="@tools:sample/avatars"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="593dp"
+        tools:src="@drawable/baseline_info_outline_24" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:src="@drawable/baseline_headset_mic_24"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="681dp" />
 
     <Button
         android:id="@+id/btnAsisLinea"
+        android:layout_width="204dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#006B61"
+        android:text="Asistencia en linea"
+        app:cornerRadius="12dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="681dp" />
+
+    <Button
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="105dp"
-        android:layout_marginBottom="86dp"
-        android:text="Asistencia en linea"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView10"
-        app:layout_constraintTop_toBottomOf="@+id/btnLegal" />
+        android:backgroundTint="#FFFFFF"
+        android:text="Button"
+        app:rippleColor="#FFFFFF"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="56dp"
+        android:layout_height="52dp"
+        android:src="@tools:sample/avatars"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="119dp"
+        tools:src="@drawable/baseline_add_location_24" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="131dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="42dp"
-        android:text="Asistencia en linea"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="59dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="23dp"
-        android:src="@drawable/campana"
-        app:layout_constraintBottom_toTopOf="@+id/imageView9"
-        app:layout_constraintEnd_toStartOf="@+id/btnNotific"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="59dp"
-        android:layout_marginEnd="21dp"
-        android:layout_marginBottom="19dp"
-        android:src="@drawable/alert"
-        app:layout_constraintBottom_toTopOf="@+id/imageView10"
-        app:layout_constraintEnd_toStartOf="@+id/btnLegal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="59dp"
-        android:layout_marginEnd="21dp"
-        android:layout_marginBottom="90dp"
-        android:src="@drawable/audifonos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnAsisLinea"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+        android:text="Perfil"
+        android:textColor="#002F2B"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="45dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

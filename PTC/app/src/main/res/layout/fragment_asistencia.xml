@@ -6,70 +6,106 @@
     android:layout_height="match_parent"
     tools:context=".fragment_asistencia">
 
-    <Button
-        android:id="@+id/btnPreguntas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="74dp"
-        android:layout_marginBottom="41dp"
-        android:text="Preguntas Frecuentes"
-        app:layout_constraintBottom_toTopOf="@+id/btnHistorial"
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="543dp"
+        android:layout_height="1091dp"
+        android:src="@drawable/fondo_android"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnHistorial"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="3dp"
+        android:id="@+id/btnPreguntas"
+        android:layout_width="319dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="54dp"
         android:layout_marginBottom="41dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="sans-serif"
+        android:text="Preguntas Frecuentes"
+        android:textSize="16sp"
+        app:cornerRadius="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnHistorial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#006B61" />
+
+    <Button
+        android:id="@+id/btnHistorial"
+        android:layout_width="319dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="41dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="sans-serif"
         android:text="Historial de Servicios"
+        android:textSize="16sp"
+        app:cornerRadius="14dp"
         app:layout_constraintBottom_toTopOf="@+id/btnContac_Ase"
         app:layout_constraintStart_toStartOf="@+id/btnPreguntas"
-        app:layout_constraintTop_toBottomOf="@+id/btnPreguntas" />
+        app:layout_constraintTop_toBottomOf="@+id/btnPreguntas"
+        app:strokeColor="#006B61" />
 
     <Button
         android:id="@+id/btnContac_Ase"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="319dp"
+        android:layout_height="62dp"
         android:layout_marginBottom="41dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="sans-serif"
         android:text="Contactar con un Asesor"
+        android:textSize="16sp"
+        app:cornerRadius="14dp"
         app:layout_constraintBottom_toTopOf="@+id/btnMetodo_Pago"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnHistorial" />
+        app:layout_constraintTop_toBottomOf="@+id/btnHistorial"
+        app:strokeColor="#006B61" />
 
     <Button
         android:id="@+id/btnMetodo_Pago"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="4dp"
+        android:layout_width="319dp"
+        android:layout_height="62dp"
         android:layout_marginBottom="41dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="sans-serif"
         android:text="Metodos de pago"
+        android:textSize="16sp"
+        app:cornerRadius="14dp"
         app:layout_constraintBottom_toTopOf="@+id/btnMAsInfo"
         app:layout_constraintEnd_toEndOf="@+id/btnMAsInfo"
-        app:layout_constraintTop_toBottomOf="@+id/btnContac_Ase" />
+        app:layout_constraintTop_toBottomOf="@+id/btnContac_Ase"
+        app:strokeColor="#006B61" />
 
     <Button
         android:id="@+id/btnMAsInfo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="319dp"
+        android:layout_height="62dp"
         android:layout_marginBottom="28dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="sans-serif"
         android:text="Mas información..."
+        android:textSize="16sp"
+        app:cornerRadius="14dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMetodo_Pago" />
+        app:layout_constraintTop_toBottomOf="@+id/btnMetodo_Pago"
+        app:strokeColor="#006B61" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="107dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="111dp"
+        android:layout_width="124dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="80dp"
         android:src="@drawable/audifonos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMAsInfo" />
+        app:layout_constraintTop_toBottomOf="@+id/btnMAsInfo"
+        tools:src="@drawable/baseline_headset_mic_24" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
