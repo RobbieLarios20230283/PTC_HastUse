@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.561" />
+        app:layout_constraintVertical_bias="0.559" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -59,14 +59,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.077" />
 
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView2"
-        android:layout_width="338dp"
-        android:layout_height="416dp"
-        android:contentDescription="Mapa de la aplicación mostrando la ubicación actual"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvDirecciones"
+        android:layout_width="392dp"
+        android:layout_height="185dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

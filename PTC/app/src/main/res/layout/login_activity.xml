@@ -7,7 +7,7 @@
     tools:context=".LoginActivity">
 
     <ImageView
-        android:id="@+id/imgback"
+        android:id="@+id/btnRegistrarse"
         android:layout_width="0dp"
         android:layout_height="46dp"
         android:layout_marginStart="18dp"
@@ -39,7 +39,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
-            android:contentDescription="@string/logo_description"
             app:srcCompat="@drawable/logohats" />
 
         <TextView
@@ -61,8 +60,12 @@
         android:textAllCaps="true"
         android:textColor="#000000"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="242dp"
-        tools:layout_editor_absoluteY="650dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.926" />
 
     <EditText
         android:id="@+id/txtemail"

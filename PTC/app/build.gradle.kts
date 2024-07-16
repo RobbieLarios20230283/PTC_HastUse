@@ -46,6 +46,7 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation ("com.google.android.gms:play-services-maps:18.0.2")
+    implementation ("androidx.recyclerview:recyclerview:1.2.1")
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.play.services.measurement.api)

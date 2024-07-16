@@ -25,7 +25,7 @@ class RegistrarActivity : AppCompatActivity() {
         val txtcorreo = findViewById<EditText>(R.id.txtcorreo)
         val txtcontraseña = findViewById<EditText>(R.id.txtcontraseña)
         val btnregistrarse = findViewById<Button>(R.id.btniraRegistrarse)
-        val imgback = findViewById<ImageView>(R.id.imgback)
+        val imgback = findViewById<ImageView>(R.id.btnRegistrarse)
         val btnRegresarLogin = findViewById<Button>(R.id.btnvolverlogin)
 
         //Programar el Boton

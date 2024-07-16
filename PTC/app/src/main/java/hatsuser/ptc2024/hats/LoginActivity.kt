@@ -1,11 +1,13 @@
 package hatsuser.ptc2024.hats
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.text.InputType
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -14,7 +16,9 @@ import androidx.core.view.WindowInsetsCompat
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
 
+
 class LoginActivity : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -24,8 +28,9 @@ class LoginActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
         //TODO ---------------------------EVento ir a Activity Registrar------------------------------------------------------
-        val btniraRegistrarse = findViewById<Button>(R.id.btniraRegistrarse)
+        val btniraRegistrarse = findViewById<ImageView>(R.id.btnRegistrarse)
 
         btniraRegistrarse.setOnClickListener {
             val activity_registrar = Intent(this, RegistrarActivity::class.java)
