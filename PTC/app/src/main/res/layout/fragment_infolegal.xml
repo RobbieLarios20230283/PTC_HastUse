@@ -13,10 +13,23 @@
         android:src="@drawable/fondo_android"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintHorizontal_bias="0.393"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="52dp"
+        android:src="@tools:sample/avatars"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnPoli_Priva"
+        app:layout_constraintHorizontal_bias="0.755"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.013"
+        tools:src="@drawable/baseline_shield_24" />
 
     <TextView
         android:id="@+id/textView5"
@@ -30,11 +43,6 @@
         app:layout_constraintHorizontal_bias="0.608"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
-
-
-
 
 
     <TextView
@@ -54,25 +62,24 @@
         android:id="@+id/imageView2"
         android:layout_width="65dp"
         android:layout_height="65dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="60dp"
         android:src="@drawable/alerta"
-        app:layout_constraintEnd_toStartOf="@+id/btnTer_Con"
-        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintEnd_toStartOf="@+id/btnTEr_Pago"
+        app:layout_constraintHorizontal_bias="0.755"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
         tools:src="@drawable/baseline_info_outline_24" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="65dp"
         android:layout_height="65dp"
+        android:layout_marginTop="284dp"
         android:src="@drawable/pagos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintEnd_toStartOf="@+id/btnTer_Con"
+        app:layout_constraintHorizontal_bias="0.755"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.415"
         tools:src="@drawable/baseline_attach_money_24" />
 
     <Button
@@ -97,17 +104,16 @@
         android:id="@+id/btnTer_Con"
         android:layout_width="233dp"
         android:layout_height="73dp"
+        android:layout_marginTop="276dp"
         android:backgroundTint="#006B61"
         android:text="Terminos y Condiciones Generales"
+
         app:cornerRadius="14dp"
         app:iconTint="#006B61"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.64"
-
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024"
         app:rippleColor="#006B61"
         app:strokeColor="#006B61" />
 
@@ -115,7 +121,7 @@
         android:id="@+id/btnTEr_Pago"
         android:layout_width="233dp"
         android:layout_height="73dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="56dp"
         android:backgroundTint="#006B61"
         android:text="Terminos y Condiciones de Pago"
         app:cornerRadius="14dp"

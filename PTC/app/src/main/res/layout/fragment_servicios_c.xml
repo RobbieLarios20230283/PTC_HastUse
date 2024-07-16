@@ -23,7 +23,7 @@
         android:layout_marginTop="436dp"
         android:text="Empleado"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintBottom_toTopOf="@+id/textView18"
         app:layout_constraintEnd_toStartOf="@+id/imageView7"
         app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,8 +70,8 @@
         android:id="@+id/textView16"
         android:layout_width="45dp"
         android:layout_height="35dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginBottom="172dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="308dp"
         android:text="$16"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -104,7 +104,7 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="52dp"
         android:text="Casa 12"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/textView19"
@@ -116,21 +116,25 @@
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="172dp"
+        android:layout_marginBottom="308dp"
         android:text="Pje El abeto, 7c"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView16"
-        app:layout_constraintHorizontal_bias="0.321"
+        app:layout_constraintHorizontal_bias="0.335"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="316dp"
         android:text="Total"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView16"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView18"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -28,7 +28,7 @@
         android:textColor="#06281F"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/btn_perfil"
+        app:layout_constraintBottom_toTopOf="@+id/btn_trabajador1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,55 +36,55 @@
         app:layout_constraintVertical_bias="0.486" />
 
     <Button
-        android:id="@+id/btn_perfil"
+        android:id="@+id/btn_trabajador1"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:layout_marginBottom="15dp"
         android:backgroundTint="#006B61"
         android:text="Trabajador 1"
         app:cornerRadius="14dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_Favoritos"
+        app:layout_constraintBottom_toTopOf="@+id/btn_trabajador2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_Direcciones"
+        android:id="@+id/btn_trabajador3"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:layout_marginBottom="15dp"
         android:backgroundTint="#006B61"
         android:text="Trabajador 3"
         app:cornerRadius="14dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_Notificaciones"
+        app:layout_constraintBottom_toTopOf="@+id/btn_trabajador4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_Favoritos"
+        android:id="@+id/btn_trabajador2"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:layout_marginBottom="15dp"
         android:backgroundTint="#006B61"
         android:text="Trabajador 2"
         app:cornerRadius="14dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_Direcciones"
+        app:layout_constraintBottom_toTopOf="@+id/btn_trabajador3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_Notificaciones"
+        android:id="@+id/btn_trabajador4"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:layout_marginBottom="15dp"
         android:backgroundTint="#006B61"
         android:text="Trabajador 4"
         app:cornerRadius="14dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_asistencia"
+        app:layout_constraintBottom_toTopOf="@+id/btn_trabajador5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_inforLegal"
+        android:id="@+id/btn_trabajador8"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:layout_marginBottom="36dp"
@@ -97,38 +97,38 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_asistencia"
+        android:id="@+id/btn_trabajador5"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:layout_marginBottom="15dp"
         android:backgroundTint="#006B61"
         android:text="Trabajador 5"
         app:cornerRadius="14dp"
-        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintBottom_toTopOf="@+id/btn_trabajador6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btn_trabajador6"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:layout_marginBottom="15dp"
         android:backgroundTint="#006B61"
         android:text="Trabajador 6"
         app:cornerRadius="14dp"
-        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintBottom_toTopOf="@+id/btn_trabajador7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btn_trabajador7"
         android:layout_width="308dp"
         android:layout_height="50dp"
         android:layout_marginBottom="15dp"
         android:backgroundTint="#006B61"
         android:text="Trabajador 7"
         app:cornerRadius="14dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_inforLegal"
+        app:layout_constraintBottom_toTopOf="@+id/btn_trabajador8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

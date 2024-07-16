@@ -8,15 +8,15 @@
 
     <ImageView
         android:id="@+id/imgubi"
-        android:layout_width="584dp"
-        android:layout_height="1199dp"
+        android:layout_width="607dp"
+        android:layout_height="1286dp"
         android:src="@drawable/fondo_android"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintHorizontal_bias="0.27"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.713" />
+        app:layout_constraintVertical_bias="0.567" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -28,7 +28,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.326" />
 
     <Button
         android:id="@+id/btn_fondop1"
