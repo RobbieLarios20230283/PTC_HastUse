@@ -18,23 +18,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.561" />
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="290dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="59dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="24dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="Button"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="317dp"
+        android:layout_height="67dp"
+        android:src="@drawable/rounded"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/btnAgregarDireccion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#006B61"
@@ -45,45 +41,31 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.877" />
+        app:layout_constraintVertical_bias="0.901" />
 
     <TextView
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="65dp"
-        android:layout_marginBottom="30dp"
         android:text="Mis direcciones"
         android:textColor="#0E4943"
         android:textColorHighlight="#D8890505"
         android:textColorHint="#FF3C3C"
         android:textSize="34sp"
-
-        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
 
-
-    <Button
-        android:id="@+id/btnDireccion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Agregar direccion"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="638dp" />
-
-
-    <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="409dp"
-        android:layout_height="501dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="1dp"
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView2"
+        android:layout_width="338dp"
+        android:layout_height="416dp"
+        android:contentDescription="Mapa de la aplicación mostrando la ubicación actual"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
