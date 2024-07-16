@@ -7,7 +7,7 @@
     tools:context=".fragment_servicios_c">
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/imgubi"
         android:layout_width="543dp"
         android:layout_height="1091dp"
         android:src="@drawable/fondo_android"
@@ -16,34 +16,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="337dp"
-        android:layout_height="200dp"
-        android:background="#FFFFFF"
-        android:backgroundTint="#FFFFFF"
-        android:src="@drawable/baseline_group_work_24"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="407dp" />
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="202dp"
-        android:layout_height="82dp"
-        android:background="#FFFFFF"
-        android:backgroundTint="#FFFFFF"
-        android:src="@drawable/baseline_group_work_24"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="618dp" />
-
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="436dp"
         android:text="Empleado"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="434dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView14"
@@ -51,8 +36,11 @@
         android:layout_height="wrap_content"
         android:text="TextView"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="62dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085"
         tools:text="Servicios en curso" />
 
     <ImageView
@@ -60,68 +48,89 @@
         android:layout_width="379dp"
         android:layout_height="415dp"
         android:src="@drawable/screenshot_2024_07_14_171525"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="51dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="97dp"
         android:layout_height="96dp"
+        android:layout_marginTop="408dp"
+        android:layout_marginEnd="64dp"
         android:src="@drawable/baseline_person_24"
-        tools:layout_editor_absoluteX="260dp"
-        tools:layout_editor_absoluteY="420dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="45dp"
         android:layout_height="35dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="172dp"
         android:text="$16"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="303dp"
-        tools:layout_editor_absoluteY="547dp" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Efectivo :"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="550dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:id="@+id/imageView14"
         android:layout_width="88dp"
         android:layout_height="95dp"
         android:src="@drawable/baseline_headset_mic_24"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="714dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
         android:text="Asistencia Tecnica"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="825dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:text="Casa 12"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="629dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="172dp"
         android:text="Pje El abeto, 7c"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="666dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.321"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,152 +2,205 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn llaves"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragment_promocion">
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/imgubi"
         android:layout_width="543dp"
         android:layout_height="1091dp"
         android:src="@drawable/fondo_android"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.712"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56" />
-
-    <Button
-        android:id="@+id/button11"
-        android:layout_width="171dp"
-        android:layout_height="237dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="Button"
-        app:cornerRadius="14dp"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="520dp" />
-
-    <Button
-        android:id="@+id/button11"
-        android:layout_width="171dp"
-        android:layout_height="237dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="Button"
-        app:cornerRadius="14dp"
-        tools:layout_editor_absoluteX="211dp"
-        tools:layout_editor_absoluteY="520dp" />
-
-    <Button
-        android:id="@+id/button11"
-        android:layout_width="155dp"
-        android:layout_height="203dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="Button"
-        app:cornerRadius="14dp"
-        tools:layout_editor_absoluteX="221dp"
-        tools:layout_editor_absoluteY="199dp" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="105dp"
-        android:layout_height="92dp"
-        android:src="@tools:sample/avatars"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="223dp"
-        tools:src="@drawable/baseline_key_24" />
-
-    <Button
-        android:id="@+id/button11"
-        android:layout_width="155dp"
-        android:layout_height="203dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="Button"
-        app:cornerRadius="14dp"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="199dp" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="106dp"
-        android:layout_height="96dp"
-        android:src="@tools:sample/avatars"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="223dp"
-        tools:src="@drawable/baseline_attach_money_24" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
         android:text="Promociones del 25%"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="56dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnPromicioness"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#006B61"
-        android:text="promicion"
-        app:cornerRadius="12dp"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="331dp" />
+        android:id="@+id/button3"
+        android:layout_width="174dp"
+        android:layout_height="226dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Button"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btnLlavesSV"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#006B61"
-        android:text="Llaves SV"
-        app:cornerRadius="12dp"
-        tools:layout_editor_absoluteX="238dp"
-        tools:layout_editor_absoluteY="330dp" />
+        android:id="@+id/button4"
+        android:layout_width="174dp"
+        android:layout_height="226dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Button"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button3" />
 
     <TextView
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="304dp"
         android:backgroundTint="#014D45"
         android:text="Servicios Destacados"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="433dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:layout_constraintVertical_bias="0.003" />
 
     <Button
-        android:id="@+id/btnRobbieCarp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#006B61"
-        android:text="Robbie Carp"
-        app:cornerRadius="12dp"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="696dp" />
+        android:id="@+id/button11"
+        android:layout_width="155dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="144dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Button"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.584"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="155dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="144dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Button"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="106dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="92dp"
+        android:src="@tools:sample/avatars"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView13"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.259"
+        tools:src="@drawable/baseline_attach_money_24" />
 
     <Button
         android:id="@+id/btnRonyZap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="316dp"
         android:backgroundTint="#006B61"
         android:text="Rony Zapatero"
         app:cornerRadius="12dp"
-        tools:layout_editor_absoluteX="221dp"
-        tools:layout_editor_absoluteY="696dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toEndOf="@+id/btnRobbieCarp"
+        app:layout_constraintTop_toBottomOf="@+id/btnLlavesSV"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnRobbieCarp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="316dp"
+        android:backgroundTint="#006B61"
+        android:text="Robbie Carp"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPromicioness"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="105dp"
+        android:layout_height="92dp"
+        android:layout_marginEnd="56dp"
+        android:src="@tools:sample/avatars"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258"
+        tools:src="@drawable/baseline_key_24" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="160dp"
-        android:layout_height="206dp"
+        android:layout_width="147dp"
+        android:layout_height="197dp"
+        android:layout_marginEnd="36dp"
         android:src="@drawable/zapatero"
-        tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="507dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818" />
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="155dp"
-        android:layout_height="115dp"
+        android:layout_width="152dp"
+        android:layout_height="99dp"
+        android:layout_marginEnd="28dp"
         android:src="@drawable/carpintero"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="549dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.786" />
+
+    <Button
+        android:id="@+id/btnPromicioness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="268dp"
+        android:backgroundTint="#006B61"
+        android:text="promicion"
+        app:cornerRadius="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLlavesSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="268dp"
+        android:backgroundTint="#006B61"
+        android:text="Llaves SV"
+        app:cornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.616"
+        app:layout_constraintStart_toEndOf="@+id/btnPromicioness"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
